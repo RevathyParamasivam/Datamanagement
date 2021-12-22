@@ -1,0 +1,36 @@
+CRITICAL - 2021-12-08 00:21:43 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 00:34:43 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 00:38:19 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 00:42:03 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 00:43:29 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 00:50:48 --> Too few arguments to function App\Controllers\OperationController::index(), 0 passed in C:\xampp\htdocs\Weblog\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,118 @@
+CRITICAL - 2021-12-03 00:29:28 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Views\ResetHintView.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetHintView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(83): view('ResetHintView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 00:30:48 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Views\LoginView.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('LoginView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(19): view('LoginView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 00:36:37 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Views\LoginView.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('LoginView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(19): view('LoginView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 00:37:23 --> Unclosed '{' on line 18
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetHintView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(86): view('ResetHintView')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 00:40:32 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Views\LoginView.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('LoginView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(19): view('LoginView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 00:42:01 --> Call to undefined function App\Controllers\test_input()
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 01:02:51 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Views\ResetPasswordView.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetPasswordVi...', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(78): view('ResetPasswordVi...')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-03 01:17:48 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 02:20:17 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 02:24:00 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:22:57 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:24:31 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:32:42 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:32:43 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:33:12 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:33:12 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+CRITICAL - 2021-12-03 03:38:07 --> Undefined property: App\Controllers\ResetController::$updatePass
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:38:46 --> Undefined property: App\Controllers\ResetController::$updatePass
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:39:51 --> Object of class App\Models\SignupModel could not be converted to string
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 03:41:09 --> Call to a member function where() on string
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-03 03:43:32 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:45:26 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:47:08 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 03:47:31 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+ERROR - 2021-12-03 04:15:23 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'
+CRITICAL - 2021-12-03 04:16:50 --> Unclosed '[' on line 84 does not match ')'
+#0 C:\xampp\htdocs\Weblog\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/ResetControlle...')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/ResetControlle...')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 04:18:15 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'

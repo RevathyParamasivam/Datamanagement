@@ -1,0 +1,150 @@
+CRITICAL - 2021-12-04 00:17:13 --> syntax error, unexpected identifier "LoginView", expecting ")"
+#0 C:\xampp\htdocs\Weblog\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/ProfileControl...')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/ProfileControl...')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 00:56:27 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 01:01:52 --> There is no data to insert.
+#0 C:\xampp\htdocs\Weblog\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(22): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-04 02:33:32 --> There is no data to insert.
+#0 C:\xampp\htdocs\Weblog\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(22): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-04 02:38:20 --> syntax error, unexpected token "=>", expecting "," or ";"
+#0 C:\xampp\htdocs\Weblog\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/ProfileControl...')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/ProfileControl...')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:41:37 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:45:38 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:46:51 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:47:31 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:57:07 --> Unclosed '(' on line 25 does not match ']'
+#0 C:\xampp\htdocs\Weblog\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/ProfileControl...')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/ProfileControl...')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 02:58:09 --> There is no data to insert.
+#0 C:\xampp\htdocs\Weblog\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-04 02:59:44 --> Class "App\Controllers\ProfileModel" not found
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-04 03:52:10 --> Unknown column 'lid' in 'field list'
+CRITICAL - 2021-12-04 05:57:24 --> Call to a member function where() on string
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-04 05:58:38 --> Undefined property: App\Controllers\ProfileController::$profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 05:58:59 --> Undefined property: App\Controllers\ProfileController::$profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 05:59:13 --> Undefined property: App\Controllers\ProfileController::$profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 06:16:02 --> Undefined property: App\Controllers\ProfileController::$profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-04 06:32:01 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Weblog\app\Views\ProfileView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(36): view('ProfileView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-04 06:32:59 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Weblog\app\Views\ProfileView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(36): view('ProfileView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-04 07:04:33 --> Column 'source' cannot be null

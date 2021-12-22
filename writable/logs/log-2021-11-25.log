@@ -1,0 +1,18 @@
+CRITICAL - 2021-11-25 05:41:08 --> Invalid file: login.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(19): view('login')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 05:43:00 --> Invalid file: login.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(19): view('login')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

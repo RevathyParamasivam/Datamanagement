@@ -1,0 +1,97 @@
+CRITICAL - 2021-11-28 03:37:42 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 03:39:12 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 07:12:02 --> Class "App\Models\LoginModel" not found
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(801): App\Controllers\LoginController->__construct()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 07:13:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 07:15:52 --> Class "App\Models\SignupModel" not found
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 07:19:35 --> Class "App\Models\SignupModel" not found
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-28 07:29:23 --> Undefined property: App\Controllers\SignupController::$load
+#0 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 07:31:13 --> Undefined property: App\Controllers\SignupController::$encrypt
+#0 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 07:45:01 --> Undefined property: App\Controllers\SignupController::$encrypt
+#0 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-11-28 08:05:29 --> Table 'weblog.firsttable' doesn't exist
+CRITICAL - 2021-11-28 08:05:29 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique(NULL, 'email', Array, NULL)
+#1 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', NULL, Array, Array)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\Weblog\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(86): CodeIgniter\BaseModel->save(Array)
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#8 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-28 08:12:04 --> Table 'weblog.use' doesn't exist
+CRITICAL - 2021-11-28 08:12:04 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique(NULL, 'email', Array, NULL)
+#1 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', NULL, Array, Array)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\Weblog\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(86): CodeIgniter\BaseModel->save(Array)
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#8 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-28 08:15:06 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2021-11-28 08:15:06 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique(NULL, 'email', Array, NULL)
+#1 C:\xampp\htdocs\Weblog\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', NULL, Array, Array)
+#2 C:\xampp\htdocs\Weblog\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\Weblog\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\Weblog\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\Weblog\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(86): CodeIgniter\BaseModel->save(Array)
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->signup()
+#8 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-11-28 08:22:02 --> Duplicate entry 'chijithjerin2004@gmail.com' for key 'user_name'

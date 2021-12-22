@@ -1,0 +1,500 @@
+CRITICAL - 2021-12-11 01:42:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 01:48:54 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Weblog\app\Views\ResetHintView.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetHintView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(113): view('ResetHintView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-11 03:21:20 --> Undefined constant "images"
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpView', Array, true)
+#3 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(44): view('UpView')
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('37')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-11 04:53:04 --> Unknown column 'sourceId' in 'where clause'
+CRITICAL - 2021-12-11 04:53:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\Weblog\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(40): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('34')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-11 04:54:55 --> Unknown column 'sourceId' in 'where clause'
+CRITICAL - 2021-12-11 04:54:55 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Weblog\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(40): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('34')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-11 04:55:54 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('34')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-11 04:57:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 04:57:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 04:57:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 04:58:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 04:58:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 04:58:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('ProfileControll...', 'logout')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:00:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('ProfileControll...', 'logout')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:02:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('ProfileControll...', 'logout')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:04:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:05:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:05:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:05:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:05:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('ProfileControll...', 'logout')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:06:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:07:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:08:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:08:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:08:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:12:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:12:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'style-up.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-11 05:12:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->update('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

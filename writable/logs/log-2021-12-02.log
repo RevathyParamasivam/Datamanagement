@@ -1,0 +1,45 @@
+CRITICAL - 2021-12-02 01:07:14 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:38:25 --> Undefined array key 1
+#0 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:39:37 --> Call to undefined function App\Controllers\pritn_r()
+#0 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:41:12 --> Undefined variable $plaintext_password
+#0 C:\xampp\htdocs\Weblog\app\Controllers\LoginController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 22:57:05 --> Invalid file: ResetHint.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ResetHint.php')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetHint', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(19): view('ResetHint')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 23:02:42 --> Invalid file: ResetHint.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ResetHint.php')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ResetHint', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ResetController.php(19): view('ResetHint')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ResetController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

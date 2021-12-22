@@ -1,0 +1,235 @@
+CRITICAL - 2021-12-06 00:14:57 --> Undefined array key "data1"
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', Array)
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 00:23:48 --> Undefined array key "data1"
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', Array)
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 00:23:52 --> Undefined array key "data1"
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', Array)
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 00:26:12 --> Undefined array key "data1"
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', Array)
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 00:27:03 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 00:27:10 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 00:27:20 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 00:27:29 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-06 00:27:51 --> Column 'source' cannot be null
+CRITICAL - 2021-12-06 00:27:58 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 00:44:39 --> Call to undefined function set_val()
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#3 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', Array)
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-06 00:51:54 --> view(): Argument #2 ($data) must be of type array, null given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 49
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(49): view('UpdateView', NULL)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('images', 'logo.png')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 00:59:43 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php on line 45
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(45): view('UpdateView', '1')
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 01:04:22 --> Unclosed '{' on line 35
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(47): view('UpdateView')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-06 01:04:51 --> Undefined variable $data
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(47): view('UpdateView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 01:05:15 --> Undefined variable $data
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(47): view('UpdateView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-06 01:06:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\Weblog\app\Views\UpdateView.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(47): view('UpdateView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('1')
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-06 01:15:39 --> Column 'source' cannot be null
+CRITICAL - 2021-12-06 01:36:43 --> Undefined array key "source"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 01:41:25 --> Undefined array key "source"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 01:43:54 --> Undefined array key "source"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 01:49:39 --> Invalid file: UpdateController.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UpdateControlle...')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateControlle...', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(45): view('UpdateControlle...')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('2')
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-06 01:51:02 --> Invalid file: UpdateController.php
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UpdateControlle...')
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('UpdateControlle...', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(45): view('UpdateControlle...')
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->update('2')
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-06 01:52:09 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\UpdateController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\UpdateController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 01:52:52 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\Weblog\app\Controllers\UpdateController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\UpdateController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 02:21:38 --> Array to string conversion
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 02:26:53 --> Undefined property: App\Controllers\ProfileController::$profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 02:28:53 --> Undefined variable $profile
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 21:59:44 --> Undefined array key "source"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-06 22:13:51 --> Undefined array key "sourceId"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

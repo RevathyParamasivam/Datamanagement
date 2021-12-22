@@ -1,0 +1,73 @@
+CRITICAL - 2021-12-10 21:52:54 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Weblog\app\Views\SignupView.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('SignupView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\SignupController.php(15): view('SignupView')
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\SignupController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-10 21:55:53 --> Duplicate entry 'revathy@gmail.com' for key 'user_name'
+CRITICAL - 2021-12-10 23:22:15 --> Unmatched '}'
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): view('ProfileView', Array)
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 23:23:18 --> Unmatched '}'
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): view('ProfileView', Array)
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 23:24:56 --> Unmatched '}'
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): view('ProfileView', Array)
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 23:25:21 --> Unmatched '}'
+#0 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#2 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): view('ProfileView', Array)
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#4 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 23:26:06 --> Undefined variable $value
+#0 C:\xampp\htdocs\Weblog\app\Views\ProfileView.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Weblog\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Weblog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Weblog\system\Common.php(1097): CodeIgniter\View\View->render('ProfileView', Array, true)
+#4 C:\xampp\htdocs\Weblog\app\Controllers\ProfileController.php(28): view('ProfileView', Array)
+#5 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\ProfileController->index()
+#6 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#7 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-10 23:31:37 --> Undefined array key "sourceId"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 23:32:42 --> Undefined array key "sourceId"
+#0 C:\xampp\htdocs\Weblog\app\Controllers\OperationController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(824): App\Controllers\OperationController->index()
+#2 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#3 C:\xampp\htdocs\Weblog\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Weblog\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
