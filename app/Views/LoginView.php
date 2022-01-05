@@ -1,14 +1,17 @@
 <html>
   <head>
-    <title>Live with Nature</title>
+    <title>GEMS</title>
     <link rel="stylesheet" href="boot/css/stylesheet.css">
     <link rel="stylesheet" href="boot/css/LoginStyle.css">
+    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url('images/logo_icon.ico')?>">
   </head>
   
   <body>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <div style="background-color: #2596be; height:100px;width:100%;border: solid 1px black;font-size:18px;color:red;"></div>
+  <div style="display:flex;background-color: #1e81b0; height:75px;width:100%;font-size:18px;color:red;">
+    <img src="./images/logo1.png" style="height:75px;padding:5px 0px 15px 50px">
+    <h1 style="color:tomato;font-size: 2em;font-weight:bold;padding: 0px 0px 20px 0px">GEMS</h1></div>
 
   <div class="backimage">
   <div class="container" >
@@ -42,7 +45,7 @@
             <input type="submit" value="Login" ><br>
             <div class='row d-flex justify-content-center'>
             <a href="ResetController"><p class="col-md-12">Forget Password?</p></a>
-            <a href="SignupController"><p class="col-md-12">New User? Sign Up</p></a>
+       
             </div>
           </form>    
         </div>
@@ -50,6 +53,7 @@
          
   </div>
   </div>
+  <div style="text-align:center;padding:20px 20px 24px 20px;background:#1e81b0">Copyright &copy; 2021. Gospel Echoing Missionary Society</div>
   </body>
 
 </html>

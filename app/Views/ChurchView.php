@@ -83,6 +83,16 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
 
       <div class="org-wrapper" class="wrapper">
           <form method="post"  action="" enctype="multipart/form-data">
+            
+            <label>Organization to which the Church belongs</label>
+           <select name="orgId" id="orgId" size="1" style="width:200px;padding:3px;">  
+            <?php if(isset($result)) { 
+              foreach($result as $value) {?>
+          
+                <option value="<?= $value['id'] ?>" selected="selected"><?= $value['org'] ?></option>
+             <?php } } ?>
+            </select>
+            <br/><br/>
             <label>Name of the Church</label>
             <input type="text" id="church" style="width:200px" name="church" placeholder="Name of the Church">
             <br/><br/>
@@ -138,10 +148,8 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
             <label style="align-items: center;">Remarks, if any</label>
             <textarea id="remarks" name="remarks" rows="3" cols="30"></textarea>  
             <br><br>
-            <label>Organization to which the Church belongs</label>
-                <input type="text" name="org" id="org" style="width:200px" placeholder="Name of the Organization">
-           
-            <div class="map">
+                       
+            <div class="map" style="margin-top: -69.5%;">
                 <label>Number of Believers</label>
                 <input type="text" name="believersN" id="believersN" style="width:200px" name="believerN" placeholder="No. of Believers">
                 <br/><br/>
@@ -160,15 +168,16 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
                  <input type="hidden" name="lat" id="lat"/>
                  <input type="hidden" name="lng" id="lng"/>
 
-                <label style="width:100px">Location</label>
-                <div id="us2"  style="width: 90%; height: 400px;"></div>
-                
+                                
        <!--
                 <input type="file" name="logoimage">
 -->
-                <br><label>History of Church</label><br>
-                <textarea id="history" name="history" rows="8" cols="65" style="width: 95%;"></textarea>  
-                <br>                  
+                <label>History of Church</label><br>
+                <textarea id="history" name="history" rows="8" cols="65" style="width: 90%;"></textarea>  
+                <br>
+                <label style="width:100px">Location</label>
+                <div id="us2"  style="width: 90%; height: 400px;"></div>
+                  
             </div>
             <br/><br/>
            <div style="text-align:center;">

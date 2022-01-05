@@ -1,0 +1,103 @@
+CRITICAL - 2021-12-26 03:31:29 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 03:32:36 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 03:35:18 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 03:37:44 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 03:38:28 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-26 03:53:48 --> Unclosed '{' on line 85
+#0 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AccountsView', Array, true)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(18): view('AccountsView', Array)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-26 03:54:37 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AccountsView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AccountsView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(18): view('AccountsView', Array)
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 03:55:38 --> Call to undefined function App\Controllers\pritn_r()
+#0 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-26 03:55:50 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AccountsView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AccountsView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(18): view('AccountsView', Array)
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 03:57:11 --> Undefined array key "income"
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AccountsView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AccountsView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(18): view('AccountsView', Array)
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-26 05:35:39 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:37:10 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:40:14 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:43:01 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:43:49 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:46:54 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:47:42 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:48:33 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:49:15 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:50:37 --> Unknown column 'id' in 'where clause'
+ERROR - 2021-12-26 05:58:49 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 05:59:47 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:00:11 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:06:21 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:08:48 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:09:17 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:09:49 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:11:37 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:12:54 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2021-12-26 06:14:22 --> Duplicate entry '0' for key 'PRIMARY'

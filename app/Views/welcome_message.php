@@ -9,7 +9,7 @@
 <!-- HEADER: MENU + HEROE SECTION --> 	
 <header style="background-color: #eceff1">
 	<div id="logo-container" style="text-align:center">
-		<img src="./images/logo1.jpg" alt="LOGO" height="250">
+		<img src="./images/logo1.png" alt="LOGO" height="100px">
     </div>
 
 	<div id="welcome-text" style="text-align:center">

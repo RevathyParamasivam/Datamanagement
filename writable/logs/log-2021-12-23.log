@@ -1,0 +1,159 @@
+CRITICAL - 2021-12-23 00:16:41 --> Undefined array key "bOrp"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:20:29 --> Undefined array key "equalification"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:23:25 --> Undefined array key "mobile"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:25:24 --> Undefined array key "baptized"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:32:55 --> Undefined array key "bOrp"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:48:59 --> Undefined variable $validateDeclaration
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 00:49:54 --> Undefined variable $validateDeclaration
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 01:16:30 --> Undefined array key "declaration"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 01:16:45 --> Undefined array key "memberimage"
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\MemberController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\MemberController->index()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemberController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-23 02:26:04 --> Class "App\Controllers\MemberModel" not found
+#0 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(801): App\Controllers\AttendanceController->__construct()
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-23 03:29:04 --> include(menu.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.ph...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): include()
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#5 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(69): view('AttendanceView')
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#8 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-23 03:29:36 --> include(menu.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.ph...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): include()
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#5 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(69): view('AttendanceView')
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#8 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-23 03:29:39 --> include(menu.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.ph...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): include()
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#5 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(69): view('AttendanceView')
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#8 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-23 03:29:41 --> include(menu.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(menu.ph...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(42): include()
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#5 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(69): view('AttendanceView')
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#8 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-23 03:29:57 --> Undefined variable $con
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 102)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(69): view('AttendanceView')
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 03:58:09 --> Unclosed '{' on line 50
+#0 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(18): view('AttendanceView', Array)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-23 21:56:01 --> Undefined array key "org"
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(18): view('AttendanceView', Array)
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-23 22:32:07 --> Undefined variable $value
+#0 C:\xampp\htdocs\Datamanagement\app\Views\AttendanceView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\Datamanagement\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Datamanagement\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('AttendanceView', Array, true)
+#4 C:\xampp\htdocs\Datamanagement\app\Controllers\AttendanceController.php(18): view('AttendanceView', Array)
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AttendanceController->index()
+#6 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AttendanceController))
+#7 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

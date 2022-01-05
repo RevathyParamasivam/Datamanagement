@@ -1,6 +1,7 @@
 <?php 
 namespace App\Controllers;
 use App\Models\ChurchModel;
+use App\Models\OrgModel;
 use CodeIgniter\Controller;
 
 class ChurchController extends Controller
@@ -8,11 +9,14 @@ class ChurchController extends Controller
     private $profile = '' ;
     public function __construct(){
       
-        $this->church = new ChurchModel();       
+        $this->church = new ChurchModel();
+        $this->org = new  OrgModel();       
     }
     
     public function index()    { 
-        
+
+        $orgData['result']=$this->org->findAll();
+                
         if(isset($_POST['church']))
         {
             $validated = ['logoimage' => ['uploaded[logoimage]',
@@ -31,7 +35,7 @@ class ChurchController extends Controller
                          'username'=>$_POST['username'],'build'=>$_POST['build'],'remarks'=>$_POST['remarks'],
                          'believersN'=>$_POST['believersN'],'BbelieversN'=>$_POST['BbelieversN'],'youthsN'=>$_POST['youthsN'],
                          'teenagersN'=>$_POST['teenagersN'],'childrenN'=>$_POST['childrenN'],'locLat'=>$_POST['lat'],
-                         'locLong'=>$_POST['lng'],'org'=>$_POST['org'],'history'=>$_POST['history']];
+                         'locLong'=>$_POST['lng'],'orgId'=>$_POST['orgId'],'history'=>$_POST['history']];
             $this->church->save($insertdata);
         /*        }
                 else{
@@ -41,7 +45,7 @@ class ChurchController extends Controller
           
     
 
-             return view('ChurchView');
+             return view('ChurchView',$orgData);
     }
 
     public function delete($data)    {  

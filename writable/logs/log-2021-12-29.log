@@ -1,0 +1,16 @@
+ERROR - 2021-12-29 01:43:36 --> Table 'dbmanage.user' doesn't exist
+CRITICAL - 2021-12-29 01:43:36 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\Datamanagement\app\Controllers\LoginController.php(18): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-29 04:11:38 --> Undefined variable $verify
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\LoginController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\LoginController->login()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
