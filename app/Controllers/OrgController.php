@@ -20,7 +20,7 @@ class OrgController extends Controller
             $session->setFlashdata('action',"view");
             $session->setFlashdata('orgId',$data['id']);
             $session->setFlashdata('name',$data['org']);
-            $session->setFlashdata('formdate',$data['formdate']);
+            
         
             $data1['result']=$this->org->findAll();
             return view('OrgView',$data1);
@@ -60,10 +60,40 @@ class OrgController extends Controller
            $session=session();
            $session->setFlashdata('action',"view");
            $session->setFlashdata('orgId',$data['id']);
-         $session->setFlashdata('name',$data['org']);
-         $session->setFlashdata('formdate',$data['formdate']);
+           $session->setFlashdata('name',$data['org']);
+           $session->setFlashdata('formdate',$data['formdate']);
+              
+            $session->setFlashdata('paddress',$data['paddress']);
+            $session->setFlashdata('city',$data['city']);
+            $session->setFlashdata('state',$data['state']);
+            $session->setFlashdata('country',$data['country']);
+            $session->setFlashdata('district',$data['district']);
+            $session->setFlashdata('taluk',$data['taluk']);
+            $session->setFlashdata('pin',$data['pin']);
+            $session->setFlashdata('mobile',$data['mobile']);
+             $session->setFlashdata('Amobile',$data['Amobile']);
+            $session->setFlashdata('email',$data['email']);
+            $session->setFlashdata('username',$data['username']);
+            $session->setFlashdata('remarks',$data['remarks']);
+            $session->setFlashdata('loc',$data['locLong']);
+            $session->setFlashdata('logoimage',$data['logoimage']);
+            
+
+        $data1['result']=$this->org->findAll();
+            return view('OrgView',$data1); 
+            
+      }
+         public function delete($data)    {  
+           $data=$this->org->where('id',$data)->first();
+           $deleteObject = new OrgModel();
+              $deleteObject->delete($data);
+             
+            
+
         $data1['result']=$this->org->findAll();
             return view('OrgView',$data1);   }
+
+            
 
 
 }

@@ -11,7 +11,7 @@ class AccountsModel extends Model
 
     protected $useAutoIncrement = true;
    
-    protected $allowedFields = ['date','purpose','income','expense'];
+    protected $allowedFields = ['date','head','purpose','income','expense'];
     protected $updatedField  = 'updated_at';
 
 }

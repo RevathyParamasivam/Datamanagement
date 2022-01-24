@@ -1,0 +1,1238 @@
+CRITICAL - 2022-01-15 22:16:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:16:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:16:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:16:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:16:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:16:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:22:11 --> Class "App\Models\ProfileModel" not found
+#0 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(801): App\Controllers\OperationController->__construct()
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:26:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:29:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:30:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:31:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:32:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:33:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:34:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:39:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:46:04 --> Class "App\Models\ProfileModel" not found
+#0 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(801): App\Controllers\OperationController->__construct()
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'css', 'style.css')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'css', 'stylesheet.css')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'js', 'script.js')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'logo1.png')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'view.png')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:54:34 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'delete.png')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 22:55:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL)
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:34:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'js', 'script.js')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 23:34:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'css', 'stylesheet.css')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 23:34:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'css', 'style.css')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 23:34:20 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'logo1.png')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 23:34:21 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Datamanagement\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\Datamanagement\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(89): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->delete(NULL, 'js', 'script.js')
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:44:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view', '1')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:45:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view', '1')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:46:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view', '1')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'logo1.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'js', 'script.js')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'view.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'delete.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-15 23:48:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\OrgController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\OrgController->view(NULL, 'edit.png')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrgController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

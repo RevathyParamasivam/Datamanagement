@@ -102,9 +102,7 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
             <label>Present Address</label>
             <input type="text" id="paddress" style="width:200px" name="paddress" placeholder="Present Address">
             <br/><br/>
-            <label>City</label>
-            <input type="text" id="city" style="width:200px" name="city" placeholder="City">
-            <br><br>
+            
             <label>Country</label>
             <select name="country" id="countySel" size="1" style="width:200px;padding:3px;">
                 <option value="" selected="selected">Select Country</option>
@@ -119,6 +117,9 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
             <select name="district" id="districtSel" size="1" style="width:200px;padding:3px;">
                 <option value="" selected="selected">Select District</option>
             </select>
+            <br><br>
+            <label>Village/City</label>
+            <input type="text" id="city" style="width:200px" name="city" placeholder="City">
             <br><br>
             <label>Taluk/Block</label>
             <input type="text" id="taluk" style="width:200px" name="taluk" placeholder="Taluk/Block">

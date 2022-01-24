@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -74,10 +75,9 @@ body {font-family: Arial, Helvetica, sans-serif;
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
-<!-- Start Styles. Move the 'style' tags and everything between them to between the 'head' tags -->
-<style type="text/css">
+
 .myTable { width:400px;background-color:#eeee;border-collapse:collapse; }
-.myTable th { background-color:#000;color:white;}
+.myTable th { background-color:#ffcc00;color:black;}
 .myTable td, .myTable th { padding:5px;border:1px solid #000; }
 </style>
 <!-- End Styles -->
@@ -92,42 +92,81 @@ body {font-family: Arial, Helvetica, sans-serif;
                       $cash=$cash+$value['income']-$value['expense'];         
                 }?>
 
-<h1>Cash at hand: <?= $cash ?></h1>
-<div style="align-items:center;position:absolute;left:20%;top:25 %;right:20%">
+<h1 style="color:tomato">Cash at hand: <?= $cash ?></h1>
+<div style="align-items:center;position:absolute;left:20%;top:25%;right:20%">
 <table class="myTable"  id="table" style="width:100%;margin-left:-35px ">
-          <tr>
-              <th style="padding:10px;">Date</td> 
-              <th >Purpose</td>
-              <th >Income</td>
-              <th >Expense</td>
+          <tr style="background-color:yellow">
+              <th style="padding:10px" width="7%">S.No.</td>
+              <th width="14%">Date</td> 
+              <th width="14%">Ledger Head</td>
+              <th width="25%">Purpose</td>
+              <th width="18%">Income</td>
+              <th width="7%">Expense</td>
+              <th width="12%">Update</td>
+              <th width="12%">Delete</td>
           </tr>
          <?php
+         $i=1;
          if(isset($result)) {
             foreach($result as $value)
-            { ?>
+            { 
+              //echo $value['date'];
+              ?>
             <tr>
-              <td style="text-align:center"> <?= $value['date'] ?> </td> 
+
+              <td style="text-align:center"> <?= $i ?> </td>
+              <td style="text-align:center"> <?= $value['date'] ?> </td>
+              <td style="text-align:center"> <?= $value['head'] ?></td> 
               <td style="text-align:center"> <?= $value['purpose'] ?> </td>
               <td style="padding:10px"> <?= $value['income'] ?></td>
               <td> <?= $value['expense'] ?></td>
+              <td id="column4" style="text-align:center;vertical-align:middle"> <a href="http://localhost/Datamanagement/AccountsController/fetch/<?=$value['id']?>" onclick="openForm()"><img src="http://localhost/Datamanagement/images/edit.png" style="height:30px"></a></td>
+              <td id="column4" style="text-align:center;vertical-align:middle"> <a href="http://localhost/Datamanagement/AccountsController/delete/<?=$value['id']?>"><img src="http://localhost/Datamanagement/images/delete.png" style="height:30px"></a></td>
           <?php 
+          $i++;
           }
           } ?>  
         </table>
 </div>
-<button class="open-button" onclick="openForm()">Insert Accounts Data</button>
-
+<button class="open-button" onclick="openForm()">Insert Accounts Data</button><br>
+<button><a href="http://localhost/Datamanagement//AccountsController/exportExcel/">Export to Excel</a></button>
+<button><a href="http://localhost/Datamanagement//AccountsController/exportPdf/">Export to PDF</a></button>
 <div style="align-items:center;position:absolute;left:40%;top:20%">
-<div class="form-popup" id="myForm">
+
+
+<div class="form-popup" id="myForm" style="display: none;">
   <form action="./AccountsController" method="post" class="form-container">
     <h1 style="text-align:center">Accounts</h1>
-    <input type="date" name="date" style="width: 90%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;"required>
-    <input type="text" placeholder="Enter Purpose" name="purpose" required>
-    <select name="type" style="width: 97%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">
+    <?php
+       if(session()->get("action")=="fetch")  {
+
+          $accId=session()->get("id");
+          $purpose=session()->get("purpose");
+          $date=session()->get("date");
+          $head=session()->get("head");
+          if(session()->get("income")=="0")
+          $amt=session()->get("expense");
+          else
+          $amt=session()->get("income");
+
+       }
+       else
+       {
+          $accId="";
+          $purpose="Enter Purpose";
+          $date="dd-mm-yyyy";
+          $head="Enter Ledger Head";
+          $amt="";         
+       }
+         ?>
+    <input type="date" name="date" style="width: 90%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;" value="<?= $date ?>">
+    <input type="text" placeholder="Enter Ledger Head" name="head" value="<?= $head ?>"required>
+    <input type="text" placeholder="Enter Purpose" name="purpose" value="<?= $purpose ?>" required>
+    <select name="type" style="width: 97%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;" value="<?= $date ?>">
                   <option value="Income" selected="selected">Income</option>
                   <option value="Expense" selected="selected">Expense</option>
     </select>
-    <input type="text" placeholder="Enter Amount" name="amt" required>
+    <input type="text" placeholder="Enter Amount" name="amt" value="<?= $amt ?>"required>
 
     <button type="submit" class="btn">Insert</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -136,7 +175,7 @@ body {font-family: Arial, Helvetica, sans-serif;
 </div>
 <script>
 function openForm() {
-  document.getElementById("myForm").style.display = "contents";
+  document.getElementById("myForm").style.display = "block";
 }
 
 function closeForm() {

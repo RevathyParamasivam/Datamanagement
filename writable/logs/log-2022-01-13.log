@@ -1,0 +1,386 @@
+CRITICAL - 2022-01-13 01:50:26 --> Class "App\Models\ProfileModel" not found
+#0 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(801): App\Controllers\OperationController->__construct()
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-13 03:40:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:40:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:40:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'fonts', 'bboo.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:40:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:04 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:04 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:05 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:05 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'vendor', 'dompdf', 'dompdf', 'lib', 'fonts', 'bboo.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'vendor', 'dompdf', 'dompdf', 'lib', 'bboo.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'vendor', 'dompdf', 'dompdf', 'lib', 'bboo.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:45:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:46:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:46:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:46:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'vendor', 'dompdf', 'dompdf', 'lib', 'bboo.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:46:23 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:30 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:50 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:50 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:47:50 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:48:05 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:48:05 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:48:06 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:49:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:49:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:49:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:50:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:50:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:50:29 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:10 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:40 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:51:41 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:57 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:57 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:53:58 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:57:21 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:57:21 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 03:57:21 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('localhost', 'Datamanagement', 'fonts', 'Bamini.ttf')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 04:57:30 --> require_once(dompdf_config.inc.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(do...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(59): require_once()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->pdfdetails('1')
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 06:04:03 --> require_once(dompdf_config.inc.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(do...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(54): require_once()
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->pdfdetails('1')
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-13 06:04:34 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'stylesheet.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-13 06:04:34 --> Undefined array key 0
+#0 C:\xampp\htdocs\Datamanagement\app\Controllers\HtmlToPdfController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\HtmlToPdfController->details('boot', 'css', 'style.css')
+#2 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HtmlToPdfController))
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

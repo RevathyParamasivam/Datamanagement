@@ -51,7 +51,7 @@
 	</div>
 </br>
 
-<div style="margin-top:38px;text-align:center;padding:20px 20px 24px 20px;background:#1e81b0">Copyright &copy; 2021. Gospel Echoing Missionary Society</div>
+<div style="margin-top:58px;text-align:center;padding:20px 20px 24px 20px;background:#1e81b0">Copyright &copy; 2021. Gospel Echoing Missionary Society</div>
 
 
   </body>

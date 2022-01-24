@@ -309,7 +309,7 @@ label{
   display: none;
   position: fixed;
   text-align:"center";
-  border: 3px solid #f1f1f1;
+  border: 3px solid #f2f2f2;
   z-index: 9;
 }
 .open-button {

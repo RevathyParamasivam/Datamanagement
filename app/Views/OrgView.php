@@ -13,7 +13,7 @@
     <script type="text/javascript" src="https://rawgit.com/Logicify/jquery-locationpicker-plugin/master/dist/locationpicker.jquery.js"></script>
     <script src="boot/js/script.js"></script>  
 <style>
-   button {
+   #viewbutton {
         background: none;
         background-image: url('./images/view.png');
         background-size: cover;
@@ -112,19 +112,20 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
 		  
 <header>
   <!-- Displaying list of Organization -->
-    <div class="list-align" id="list-id">
+    <div class="list-align" id="list-id" style="width:90%">
       <br>
       <h2 style="color:tomato">List of Registered Organizations</h2>
       <br>
+      <button>Add</button>
       <form method="post"  action="">
           
-        <table id="myTable" style="text-align:center;padding: 0.2em;">
+        <table id="myTable" style="text-align:center;padding:0.2em; width:100%">
           <tr class="header" id="list_header">
-            <th style="width:25%;">Organization</th>
-            <th style="width:25%;">Contact Number</th>
-            <th style="width:25%;">View</th>
-            <th style="width:25%;">Update</th>
-            <th style="width:25%;">Delete</th>
+            <th style="width:30%;">Organization</th>
+            <th style="width:30%;">Contact Number</th>
+            <th style="width:20%;">View</th>
+            <th style="width:20%;">Update</th>
+            <th style="width:20%;">Delete</th>
           </tr>
     
           <?php if(isset($result)) {
@@ -134,15 +135,14 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
              <tr>
               <td id="org" name="<?=$value['id']?>"><?= $value['org'] ?></td>
               <td id="mobile" name="<?=$value['id']?>"><?= $value['mobile'] ?></td>
-              <td id="column4" style="vertical-align:middle"> <a href="OrgController/view/<?=$value['id']?>"><img src="./images/view.png" onclick="openForm()" style="height:30px"></a></td>
+              <td id="column4" style="vertical-align:middle"> <a href="http://localhost/Datamanagement//OrgController/view/<?=$value['id']?>"><img src="http://localhost/Datamanagement/images/view.png" onclick="openForm()" style="height:30px"></a></td>
               <?php   
                     $session=session();
                     $session->setFlashdata('ActionId', $session->get('lid1'));
                     
                     ?>
-              <td><button type="submit" name="viewButton" value="<?=$value['id']?>" onclick="openForm()"/>
-                </button></td>
-              <td id="column5" style="vertical-align:middle"> <a href="OperationController/update/<?=$value['id']?>""><img src="./images/delete.png" style="height:30px"></a></td>
+              <td><a href="/OrgController/update/<?=$value['id']?>""><img src="http://localhost/Datamanagement//images/edit.png" style="height:30px"></a></td>
+              <td id="column5" style="vertical-align:middle"> <a href="OrgController/delete/<?=$value['id']?>""><img src="http://localhost/Datamanagement/images/delete.png" style="height:30px"></a></td>
             </tr>
              </form>
           <?php }}?>
@@ -151,36 +151,35 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
   </div>
 
   <!-- Display Single Organization Details -->
-       <div style="align-items:center;position:absolute;left:40%;top:20%">
+       <div style="align-items:center;position:absolute;left:15%;top:10%">
        <div id="myForm" class="form-popup">
          <form action="./AccountsController" method="post" class="form-container">
        <?php
        if(session()->get("action")=="view")  {
          ?>
                 
-        <label style="width: 90%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Organization   : <?= session()->get("orgId") ?></label>
-       <label style="width: 90%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Organization   : <?= session()->get("name") ?></label>
+        <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Organization ID   : <?= session()->get("orgId") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Organization Name  : <?= session()->get("name") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Formation Date     : <?= session()->get("formdate") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Address            : <?= session()->get("paddress") ?></label>
+       
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">State              : <?= session()->get("state") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Country            : <?= session()->get("country") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">District           : <?= session()->get("district") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Taluk              : <?= session()->get("taluk") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Village/City               : <?= session()->get("city") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Pin                : <?= session()->get("pin") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Mobile             : <?= session()->get("mobile") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Amobile            : <?= session()->get("Amobile") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Email              : <?= session()->get("email") ?></label>
+       <label style="width: 40%;padding: 15px;margin: 5px 0 22px 0;border: none;background: #f1f1f1;">Username           : <?= session()->get("username") ?></label>
+       <br>
         <?php }?>
-        <button type="button" style="background:none" class="btn cancel" onclick="closeForm()">Close</button>
+        <button type="button" style="padding:10px 10px 10px 10px" class="btn cancel" onclick="closeForm()">Close</button>
          </form>
        </div>
        </div>
-	
-	<div style="margin-top: 5px">
-			<ul style="text-align:center">
-			<li class="menu-toggle">
-				<button onclick="toggleMenu();">&#9776;</button>
-			</li>
-			<li class="menu-item hidden"><a href="Home" target="_self">Organization</a></li>
-			<li class="menu-item hidden"><a href="#" target="_self">Churches</a>
-			</li>
-			<li class="menu-item hidden"><a href="LoginController" target="_self">Members</a></li>
-			<li class="menu-item hidden"><a href="DonateController" target="_self">Attendance</a>
-			<li class="menu-item hidden"><a href="DonateController" target="_self">Accounts</a>
-			</li>
-	     	</ul>
-	</div>
-</header>      
+	</header>      
   
       
       <br/>
@@ -198,9 +197,7 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
             <label>Present Address</label>
             <input type="text" id="paddress" style="width:200px" name="paddress" placeholder="Present Address">
             <br/><br/>
-            <label>City</label>
-            <input type="text" id="city" style="width:200px" name="city" placeholder="City">
-            <br><br>
+            
             <label>Country</label>
             <select name="country" id="countySel" size="1" style="width:200px;padding:3px;">
                 <option value="" selected="selected">Select Country</option>
@@ -216,9 +213,13 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
                 <option value="" selected="selected">Select District</option>
             </select>
             <br><br>
+            <label>Village/City</label>
+            <input type="text" id="city" style="width:200px" name="city" placeholder="City">
+            <br><br>
             <label>Taluk/Block</label>
             <input type="text" id="taluk" style="width:200px" name="taluk" placeholder="Taluk/Block">
             <br><br>
+            
             <label>Pincode</label>
             <input type="text" id="pin" maxlength="6" style="width:200px" name="pin" placeholder="Pincode">
             <br><br> 
@@ -227,11 +228,10 @@ districtSel.options[districtSel.options.length] = new Option(district[i], distri
             <br><br>
             <label>Logo</label>
                        <input type="file" name="logoimage">
-            
+        
             
             <div class="map" style="margin-top: -47.5%;">
-
-                
+           
                 <label>Mobile Number</label>
                 <input type="text" id="mobile" maxlength="10" style="width:200px" name="mobile" placeholder="Mobile Number">
                 <br><br>

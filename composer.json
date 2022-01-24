@@ -10,9 +10,13 @@
         "ext-intl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
+        "dompdf/dompdf": "^1.1",
         "kint-php/kint": "^3.3",
         "laminas/laminas-escaper": "^2.9",
-        "psr/log": "^1.1"
+        "phpoffice/phpspreadsheet": "^1.21",
+        "psr/log": "^1.1",
+        "sabberworm/php-css-parser": "^8.4",
+        "setasign/fpdf": "^1.8"
     },
     "require-dev": {
         "codeigniter/coding-standard": "^1.1",
