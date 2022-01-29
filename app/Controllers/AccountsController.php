@@ -6,10 +6,13 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Dompdf\Dompdf;
 use Dompdf\Options;
+use CodeIgniter\API\ResponseTrait;
 
 class AccountsController extends Controller
 {
     private $profile = '' ;
+    use ResponseTrait;
+
     public function __construct(){
       
         $this->accounts = new AccountsModel(); 
@@ -22,26 +25,33 @@ class AccountsController extends Controller
             return view('TestView',$accountsData);       
          }
         public function store()    {  
+            echo "<script>console.log('Debug Objects:');</script>";
+
+           
            $data=[
-               'date'=>$this->request->getPost('date'),
-               'head'=>$this->request->getPost('head'),
-               'type'=>$this->request->getPost('type'),
-               'purpose'=>$this->request->getPost('purpose'),
-               'expense'=>$this->request->getPost('amt'),
-               'income'=>$this->request->getPost('amt')
+               'date'=>$_POST['date'],
+               'head'=>$_POST['head'],
+               'type'=>$_POST['type'],
+               'purpose'=>$_POST['purpose'],
+               'expense'=>$_POST['amt'],
+               'income'=>$_POST['amt']
            ];
            
-            if($this->request->getPost('type')=="Income") { $data['income']=$this->request->getPost('amt'); }
+            if($_POST['type']=="Income") { $data['income']=$_POST['amt']; }
             else { $data['income']=0; }
 
-            if($this->request->getPost('type')=="Expense") { $data['expense']=$this->request->getPost('amt'); }
+            if($_POST['type']=="Expense") { $data['expense']=$_POST['amt']; }
             else { $data['expense']=0; }
             
-            $insertData=['date'=>$_POST['date'],'head'=>$_POST['head'],'purpose'=>$_POST['purpose'],'income'=>intval($income),'expense'=>intval($expense)];
+            $insertData=['date'=>$_POST['date'],'head'=>$_POST['head'],'purpose'=>$_POST['purpose'],'income'=>intval($data['income']),'expense'=>intval($data['expense'])];
             
             $this->accounts->save($insertData);
+            $data=$this->accounts->findAll();
+            //$returnData=array('status'=>'Account Inserted Succesfully');
+            //header('Content-Type: application/json');
+            echo json_encode( $data );
            
-           return view('AccountsView');   
+           //return view('AccountsView');  
            }
 
         public function fetch($data)    {  

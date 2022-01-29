@@ -1,0 +1,9 @@
+CRITICAL - 2022-01-29 04:00:35 --> Invalid file: TestView.php
+#0 C:\xampp\htdocs\Datamanagement\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('TestView.php')
+#1 C:\xampp\htdocs\Datamanagement\system\Common.php(1097): CodeIgniter\View\View->render('TestView', Array, true)
+#2 C:\xampp\htdocs\Datamanagement\app\Controllers\AccountsController.php(25): view('TestView', Array)
+#3 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(824): App\Controllers\AccountsController->index()
+#4 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccountsController))
+#5 C:\xampp\htdocs\Datamanagement\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Datamanagement\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/css/alertify.css" rel="stylesheet"/>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Add_Modal">
         Launch demo modal
       </a>
-
+      <div id="show_data"></div>
       <!-- Modal -->
       <div class="modal fade" id="Add_Modal" tabindex="-1" aria-labelledby="AddModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -48,6 +49,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     <script src="boot/js/jquery-3.6.0.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.0-rc3/css/alertify-bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alertifyjs-alertify.js/1.0.11/js/alertify.js"></script>
     <script>
         $(document).ready(function(e){
             $(document).on('click','.ajax-add-entry',function(){
@@ -76,10 +79,24 @@
                     'date':$ ('.a_date').val(),'head':$ ('.a_head').val(),'purpose':$ ('.a_purpose').val(),'amt':$ ('.a_amt').val(), 'type':$ ('.a_type').val()
                             };
                     $.ajax({
-                        method: "POST", url:"/accounts/store", data:data, 
-                        success : function (response){
+                        method: "GET", url:"./accounts/store", data:data, 
+                        success : function (data1){
                             $('#Add_Modal').modal('hide');
                             $('#Add_Modal').find('input').val('');
+                            var html = '';
+                            var i;
+                            var res=JSON.parse(data1);
+                            $.each(JSON.parse(json), function(idx, obj) {
+	                            alert(obj.tagName);
+                              });
+                            foreach(JSON.parse(json) as obje){
+                               // html += '<tr>'+'<td>'+res[i]["head"]+'</td></tr>';
+                               console.log(obj.head);
+                            }   
+                            $('#show_data').html(html);
+
+                            //alertify.set('notifier','position','center');
+                            //alertify.success('12333');
                             alert('Succesfully Added');
                         }
 

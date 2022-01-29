@@ -24,7 +24,7 @@ $routes->set404Override();
 $routes->setAutoRoute(true);
 
 //JQUERY Routes
- $routes->post('accounts/store','AccountsController::store');
+ $routes->get('accounts/store','AccountsController::store');
 /*
  * --------------------------------------------------------------------
  * Route Definitions
